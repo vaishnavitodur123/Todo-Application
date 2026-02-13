@@ -57,6 +57,13 @@ ul li {
     padding: 8px 8px;
     flex-wrap: wrap;
     font-size: 20px;
+    background-color: #bbdefb;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+ul {
+    padding: 10px;
 }
 
 .movetask {
@@ -67,6 +74,6 @@ ul li {
 
 .ongoing {
     padding: 7px;
-
+    margin-left: 5px;
     background-color: green;
 }

@@ -114,6 +114,16 @@ function App() {
                     </div>
                 </div>
 
+ <div
+                    className='row-1'
+                    onDragOver={allowDrop}
+                    onDrop={() => handleDrop("ongoing")}
+                >
+                    <div className='col-1'>
+                        <h1>Ongoing Tasks</h1>
+                        <ul>{renderTasks("ongoing")}</ul>
+                    </div>
+                </div>
                
 
                 <div
